@@ -3,8 +3,9 @@
   "name": "Bag Pick",
   "version": "1.0.0",
   "config_flow": true,
-  "documentation": "",
+  "documentation": "https://github.com/remy/ha_bag_pick",
+  "issue_tracker": "https://github.com/remy/ha_bag_pick/issues",
   "requirements": [],
-  "codeowners": [],
+  "codeowners": ["@remy"],
   "iot_class": "local_push"
 }

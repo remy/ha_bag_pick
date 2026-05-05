@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up a Bag",
+        "description": "Create a new bag of items to pick from randomly.",
+        "data": {
+          "name": "Bag name",
+          "items": "Items (one per line)"
+        }
+      }
+    },
+    "error": {
+      "items_empty": "Please enter at least one item."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Edit Bag Items",
+        "description": "Update the list of items. Changes will reset the current bag cycle.",
+        "data": {
+          "items": "Items (one per line)"
+        }
+      }
+    },
+    "error": {
+      "items_empty": "Please enter at least one item."
+    }
+  },
+  "services": {
+    "pick_next": {
+      "name": "Pick next",
+      "description": "Pick the next item from the bag. Reshuffles automatically when the bag is exhausted."
+    },
+    "reset": {
+      "name": "Reset bag",
+      "description": "Reshuffle the bag from scratch, discarding the current cycle."
+    }
+  }
+}

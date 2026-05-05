@@ -1,0 +1,15 @@
+pick_next:
+  name: Pick next
+  description: Pick the next item from the bag. Reshuffles automatically when exhausted.
+  target:
+    entity:
+      domain: sensor
+      integration: bag_pick
+
+reset:
+  name: Reset bag
+  description: Reshuffle the bag from scratch, discarding the current cycle.
+  target:
+    entity:
+      domain: sensor
+      integration: bag_pick

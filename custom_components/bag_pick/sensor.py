@@ -97,7 +97,9 @@ class BagPickSensor(SensorEntity):
         self._write_all()
 
     async def async_reset(self) -> None:
-        self._store.reset(self._master_items())
+        master = self._master_items()
+        self._store.reset(master)
+        self._store.pick_next(master)
         self._store.async_delay_save()
         self._write_all()
 

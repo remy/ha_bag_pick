@@ -5,7 +5,7 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
 
-from .const import DOMAIN, CONF_ITEMS
+from .custom_components.bag_pick.const import DOMAIN, CONF_ITEMS
 from .store import BagPickStore
 
 _LOGGER = logging.getLogger(__name__)

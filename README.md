@@ -4,7 +4,7 @@
 
 A Home Assistant custom integration that picks random items from a preset list using the **bag pick** (shuffle bag) method — items are drawn without replacement until the bag is exhausted, at which point the bag automatically refills and reshuffles. No item repeats until every item has been seen.
 
-![Bag Pick icon](blob/main/brand/icon.png)
+![Bag Pick icon](blob/main/custom_components/bag_pick/brand/icon.png)
 
 ---
 

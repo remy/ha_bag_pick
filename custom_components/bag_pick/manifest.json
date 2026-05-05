@@ -1,7 +1,7 @@
 {
   "domain": "bag_pick",
   "name": "Bag Pick",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "config_flow": true,
   "documentation": "https://github.com/remy/ha_bag_pick",
   "issue_tracker": "https://github.com/remy/ha_bag_pick/issues",

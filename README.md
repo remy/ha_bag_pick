@@ -1,3 +1,5 @@
+![Disclosure: made with AI](https://badgen.net/badge/disclosure/made%20with%20ai)
+
 # Bag Pick
 
 A Home Assistant custom integration that picks random items from a preset list using the **bag pick** (shuffle bag) method — items are drawn without replacement until the bag is exhausted, at which point the bag automatically refills and reshuffles. No item repeats until every item has been seen.
@@ -53,18 +55,18 @@ Each bag creates two sensor entities on a single device:
 
 The **current picked item**.
 
-| Attribute | Description |
-|---|---|
-| `total` | Total number of items in the bag |
-| `items` | Full master items list |
+| Attribute | Description                      |
+| --------- | -------------------------------- |
+| `total`   | Total number of items in the bag |
+| `items`   | Full master items list           |
 
 ### `sensor.<bag_name>_remaining`
 
 The **number of items remaining** in the current cycle.
 
-| Attribute | Description |
-|---|---|
-| `items` | The remaining items in current shuffle order |
+| Attribute | Description                                  |
+| --------- | -------------------------------------------- |
+| `items`   | The remaining items in current shuffle order |
 
 ---
 
